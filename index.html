@@ -310,6 +310,14 @@
       margin-bottom: 3rem;
     }
 
+    .section-content:has(.section-text:only-child) {
+      grid-template-columns: 1fr;
+      max-width: 900px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+
     .section-content:nth-child(even) .section-text {
       order: 2;
     }
